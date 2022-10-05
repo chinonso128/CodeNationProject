@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Meera Inimai', sans-serif;
+}
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    border-bottom: 1px solid lightgray;
+}
+
+.navSection {
+    width: 180px;
+}
+
+#navText {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+#navText a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-chevron-down {
+    color: #d95d4a;
+}
+
+#logo {
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#searchIcon {
+    width: 30px;
+    float: right;
+    margin-right: 40px;
+}
+
+#heroWrapper {
+    margin-top: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#hero {
+    height: 500px;
+    width: 90vw;
+    background-image: url("/images/Banana-Bread-SQUARE-4.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+#bakeButton {
+    background-color: #d95d4a;
+    border: none;
+    width: 140px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+}

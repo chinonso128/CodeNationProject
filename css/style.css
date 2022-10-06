@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 *{
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -48,7 +48,7 @@ body {
     margin-right: 40px;
 }
 
-#heroWrapper {
+.heroWrapper {
     margin-top: 40px;
     width: 100vw;
     display: flex;
@@ -81,6 +81,7 @@ body {
     margin-top: 3rem ;
     margin-bottom: 3rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .recipeCard{
@@ -125,4 +126,45 @@ body {
 
 .mr-1{
     margin-right:1rem ;
+}
+
+.vegeterian {
+    width: 32px;
+    height: 32px;
+    fill: #76ec72;
+}
+
+.vege {
+    margin-left: 1rem;
+}
+
+.smallWords{
+    margin-left: 0.5rem;
+}
+
+#bakingmad{
+    display: flex;
+}
+
+#IGicon{
+    fill: #d95d4a;
+}
+
+.tweets img{
+    height: 263px;
+    width: 263px;
+    display: flex;
+    flex-direction: row;
+}
+
+#hero2 {
+    height: 500px;
+    width: 90vw;
+    background-image: url("/images/Pick\ and\ Mix\ Cake\ Jar\ Horizontal_3.webp");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    box-sizing: border-box;
 }

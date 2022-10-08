@@ -262,3 +262,20 @@ body {
         height: 290px;
     }
 }
+
+#dropdown{
+    width: 15px;
+    height: 15px;
+    fill: #d95d4a;
+}
+
+@media (min-width: 1024px){
+.Footer{
+    padding: var(--space-xl) 0 0;
+}
+}
+
+.footer{
+    background-color: #f9fafb;
+    display: block;
+}

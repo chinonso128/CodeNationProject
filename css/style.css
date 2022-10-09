@@ -342,3 +342,13 @@ list-style-type: none;
     height: 200px;
     border-top: 1px solid lightgray;
 }
+
+.meta-icon2{
+    width: 32px;
+    height: 32px;
+    fill: #d95d4a;
+}
+
+.meta-icon2 svg{
+    fill: #d95d4a;
+}

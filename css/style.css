@@ -352,3 +352,10 @@ list-style-type: none;
 .meta-icon2 svg{
     fill: #d95d4a;
 }
+
+.navTextLeft > a:first-child{
+   margin-right: 0.4rem;
+   line-height: 0;
+   display:inline-block;
+   
+}
